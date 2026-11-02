@@ -14,7 +14,8 @@ namespace PNDTextFileBank
         public static string xConnMssql;
         public static void xConnToMssql()
         {
-            xConnMssql = "Data Source=SOLOMON-DB.HAIER.LOCAL;Initial Catalog=" + xDatabase + ";Persist Security Info=True;User ID=sa;Password=tns2007;";
+            xConnMssql = "Data Source=190.7.10.7;Initial Catalog=" + xDatabase +
+                         ";Persist Security Info=True;User ID=sa;Password=tns2007;";
         }
 
         public static DataTable xExecuteMssqlQuery(string xSql)
