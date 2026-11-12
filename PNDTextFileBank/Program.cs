@@ -14,7 +14,7 @@ namespace PNDTextFileBank
         public static string xConnMssql;
         public static void xConnToMssql()
         {
-            xConnMssql = "Data Source=190.7.10.7;Initial Catalog=" + xDatabase +
+            xConnMssql = "Data Source=10.35.10.7;Initial Catalog=" + xDatabase +
                          ";Persist Security Info=True;User ID=sa;Password=tns2007;";
         }
 
